@@ -1,0 +1,41 @@
+{
+  "name": "bistroo-settlement-escrow-contract",
+  "version": "1.0.0",
+  "description": "Bistroo Settlement-Escrow contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate-ganache": ".scripts/migrate-ganache.sh",
+    "migrate-rinkeby": ".scripts/blokko/migrate-rinkeby.sh",
+    "migrate-rinkeby-update": ".scripts/blokko/migrate-rinkeby-update.sh"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bistroo/smart-contracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bistroo/smart-contracts/issues"
+  },
+  "homepage": "https://github.com/bistroo/smart-contracts#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.0",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "@truffle/debug-utils": "^4.1.6",
+    "@truffle/hdwallet-provider": "^1.0.40",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "eth-json-rpc-filters": "^4.1.1",
+    "eth-rpc-errors": "^2.1.1",
+    "truffle-assertions": "^0.9.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "truffle-plugin-verify": "^0.5.2"
+  }
+}
